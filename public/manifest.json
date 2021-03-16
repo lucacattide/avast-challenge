@@ -1,0 +1,15 @@
+{
+  "short_name": "Avast Challenge",
+  "name": "Coding Challenge at Avast",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fc7822",
+  "background_color": "#ffffff"
+}
