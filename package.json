@@ -44,5 +44,15 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
+  },
+  "devDependencies": {
+    "jest-coverage-badges": "^1.1.2"
+  }
 }

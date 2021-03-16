@@ -66,6 +66,7 @@ In the project directory, you can run:
 #### `yarn dev`
 
 Runs the app in concurrently mode (client/server).\
+
 Client: Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
 Server: Listening on [http://localhost:5000](http://localhost:5000).
 
@@ -131,3 +132,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 #### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Testing
+
+### Code Coverage
+
+![Branches](./coverage/badge-branches.svg 'Coverage - Branches') ![Branches](./coverage/badge-functions.svg 'Coverage - Functions') ![Branches](./coverage/badge-lines.svg 'Coverage - Lines') ![Branches](./coverage/badge-statements.svg 'Coverage - Statements')
