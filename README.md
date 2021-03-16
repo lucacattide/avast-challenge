@@ -65,7 +65,7 @@ In the project directory, you can run:
 
 #### `yarn dev`
 
-Runs the app in concurrently mode (client/server).\
+Runs the app in concurrent mode (client/server).
 
 Client: Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
 Server: Listening on [http://localhost:5000](http://localhost:5000).
