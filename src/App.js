@@ -32,7 +32,7 @@ const App = () => {
    *        total: 0, // Frequency
    *      }
    *    ],
-   *    totalEventsContext: { // Total Events by context
+   *    totalEventsContext: { // BONUS - Total Events by context
    *      browser: 0, // Browser events
    *      dom: 0 // DOM nodes events
    *    },
@@ -197,6 +197,7 @@ const App = () => {
       ...recordsManager,
       stats: {
         totalEvents: getTotalEvents(),
+        // BONUS
         totalEventsContext: getTotalEventsByContext(),
         delays: getTimeDelays(),
         longestSequence: getLongestSequence(),
